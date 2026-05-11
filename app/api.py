@@ -6,6 +6,10 @@ from app.rag import RAGEngine
 
 app = FastAPI()
 
+@app.get("/")
+def home():
+    return {"status": "working"}
+
 rag = RAGEngine()
 
 
