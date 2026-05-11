@@ -1,0 +1,13 @@
+# environment
+venv/
+.env
+
+# python cache
+__pycache__/
+*.pyc
+
+# vector database
+chroma_db/
+
+# system files
+.DS_Store
